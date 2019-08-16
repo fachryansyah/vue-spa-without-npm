@@ -6,9 +6,9 @@ This is simple boilerplate for develop vuejs projects without NPM & Webpack.
 $ git clone https://github.com/fachryansyah/vue-spa-without-npm.git
 ```
 
-## Customize
+## [main.js](http://https://github.com/fachryansyah/vue-spa-without-npm/blob/master/main.js "main.js")[main.js](https://github.com/fachryansyah/vue-spa-without-npm/blob/master/main.js "main.js")Customize
 ### Adding 3rd Library
-You can add 3rd libraries or plugin stored in src/lib/here. and register your libraries to config.js
+You can add 3rd libraries or plugin stored in [src/lib](https://github.com/fachryansyah/vue-spa-without-npm/tree/master/src/libhttp:// "src/lib"). and register your libraries to config.js
 example using jQuery.
 ``` JavaScript
 require.config({
@@ -20,15 +20,15 @@ require.config({
 })
 ```
 
-And register again in main.js like this.
+And register again in [main.js](https://github.com/fachryansyah/vue-spa-without-npm/blob/master/main.js) like this.
 ``` JavaScript
 require(["config"], function() {
     require(["app", "Uikit", "UikitIcons", "jQuery"])
 })
 ```
 
-### Setting route
-For setting route page you must register that page stored in src/pages to config.js
+###Setting route
+For setting route page you must register that page stored in [src/pages ](https://github.com/fachryansyah/vue-spa-without-npm/tree/master/src/pages)to [config.js](https://github.com/fachryansyah/vue-spa-without-npm/blob/master/src/config.js)
 ``` JavaScript
 require.config({
     baseUrl: "src",
@@ -41,7 +41,7 @@ require.config({
     }
 })
 ```
-so you can use on router.js like this.
+so you can use on [router.js](https://github.com/fachryansyah/vue-spa-without-npm/blob/master/src/router.js) like this.
 ``` JavaScript
 define(function(require){
 	...
