@@ -6,8 +6,8 @@ This is simple boilerplate for develop vuejs projects without NPM & Webpack.
 $ git clone https://github.com/fachryansyah/vue-spa-without-npm.git
 ```
 
-##Customize
-###Adding 3rd Library
+## Customize
+### Adding 3rd Library
 You can add 3rd libraries or plugin stored in src/lib/here. and register your libraries to config.js
 example using jQuery.
 ``` JavaScript
@@ -27,7 +27,7 @@ require(["config"], function() {
 })
 ```
 
-###Setting route
+### Setting route
 For setting route page you must register that page stored in src/pages to config.js
 ``` JavaScript
 require.config({
