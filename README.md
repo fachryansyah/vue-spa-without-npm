@@ -27,7 +27,7 @@ require(["config"], function() {
 })
 ```
 
-###Setting route
+### Setting route
 For setting route page you must register that page stored in [src/pages ](https://github.com/fachryansyah/vue-spa-without-npm/tree/master/src/pages)to [config.js](https://github.com/fachryansyah/vue-spa-without-npm/blob/master/src/config.js)
 ``` JavaScript
 require.config({
