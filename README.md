@@ -6,7 +6,7 @@ This is simple boilerplate for develop vuejs projects without NPM & Webpack.
 $ git clone https://github.com/fachryansyah/vue-spa-without-npm.git
 ```
 
-## [main.js](http://https://github.com/fachryansyah/vue-spa-without-npm/blob/master/main.js "main.js")[main.js](https://github.com/fachryansyah/vue-spa-without-npm/blob/master/main.js "main.js")Customize
+## Customize
 ### Adding 3rd Library
 You can add 3rd libraries or plugin stored in [src/lib](https://github.com/fachryansyah/vue-spa-without-npm/tree/master/src/libhttp:// "src/lib"). and register your libraries to config.js
 example using jQuery.
