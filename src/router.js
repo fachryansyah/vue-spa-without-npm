@@ -1,7 +1,8 @@
 define(function(require){
 
-    let Vue = require("Vue")
     let VueRouter = require("VueRouter")
+
+    // its your pages
     let HomePage = require("HomePage")
     let ArticlePage = require("ArticlePage")
 
