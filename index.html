@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compose</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/uikit.min.css" />
+    <!-- requirejs -->
+    <script data-main="src/config" src="./src/lib/require.min.js"></script>
+</head>
+<body>
+
+    <div id="app">
+        <div class="uk-position-relative">
+            <nav class="uk-navbar-container" uk-navbar="dropbar: true">
+
+                <div class="uk-navbar uk-background-primary uk-light">
+                    <div class="uk-navbar-left">
+                        <div class="uk-navbar-nav">
+                            <a class="uk-navbar-item uk-logo" href="#">bpJS</a>
+                        </div>
+                    </div>
+                    <div class="uk-navbar-right">
+
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="#">Home</a></li>
+                            <li><a href="#">Article</a></li>
+                            <li><a href="#">Sign In</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <router-view></router-view>
+    </div>
+
+    <script src="./main.js" charset="utf-8"></script>
+</body>
+</html>
